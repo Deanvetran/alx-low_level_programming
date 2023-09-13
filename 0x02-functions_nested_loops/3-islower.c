@@ -13,3 +13,16 @@ int _islower(int c)
 	else
 		return (0);
 }
+
+
+
+/**alternatively i can print it using the ASCII code*/
+
+#include "main.h"
+int _islower(int c)
+{
+  if (c >=97 && c<=122)
+    return (1);
+  else
+    return (0);
+}
